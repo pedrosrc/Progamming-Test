@@ -118,7 +118,7 @@ export default function LifeGame() {
           gridTemplateColumns: `repeat(${cols}, 20px)`
         }} >
                 {grid.map((Numrows: any, i: any) =>
-                    Numrows.map((col:any,k: any) =>
+                    Numrows.map((_:any,k: any) =>
                         <div key={`${i}-${k}`}
                             onClick={() => handleNodeClick(i, k)}
                             style={{
