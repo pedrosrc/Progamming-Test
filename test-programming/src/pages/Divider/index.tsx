@@ -206,7 +206,7 @@ export default function Divider() {
         ))}
         <button onClick={addProduct} className={styles.button_add}>Adicionar Produto</button>
       </div>
-      <div>
+      <div className={styles.result}>
         <div className={styles.result}>
           <h2>Resultado</h2>
           {customers.map((customer, index) => (
