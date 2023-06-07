@@ -1,0 +1,37 @@
+.container_roman{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.container_roman h1{
+    text-align: center;
+}
+.section_converter{
+    text-align: center;
+    margin: 5px;
+}
+.section_converter input{
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: transparent;
+}
+.container_roman h3{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    color: #560DFD;
+    width: 150px;
+}
+.section_converter button{
+    border: 1px solid #560DFD;
+    background-color: #560DFD;
+    padding: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.section_converter button:hover{
+    background-color: transparent;
+    border-radius: 0 10px 10px 0;
+}

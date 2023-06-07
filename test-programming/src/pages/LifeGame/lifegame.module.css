@@ -1,0 +1,36 @@
+.container_lifegame{
+    margin: auto;
+}
+.container_lifegame h1{
+    text-align: center;
+    margin: 20px;
+}.container_lifegame h3{
+    text-align: center;
+}
+.container_lifegame ul{
+    text-align: center; 
+}
+.section_buttons{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.section_buttons button{
+    padding:  5px;
+    margin: 15px 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+.section_buttons button:hover{
+    background-color: #560DFD;
+}
+.section_lifegame{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}

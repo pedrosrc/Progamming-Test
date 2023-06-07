@@ -1,0 +1,143 @@
+.container_divider{
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    margin-top: 10%;
+    overflow-x: hidden;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    background-color: #560DFD;
+    flex-wrap: wrap;
+}
+.container_divider h1{
+    text-align: center;
+    margin: 0 auto;
+}
+.section_product{
+    background-color: #440ec0;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section_product h2{
+    text-align: center;
+}
+.section_product ul{
+    margin: auto;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.products input{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-bottom: 5px;
+}
+.section_custumer{
+    background-color: #440ec0;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.button_add{
+    background-color: white;
+    border: 1px solid transparent;
+    padding: 5px;
+    color: #440ec0;
+    cursor: pointer;
+    transition: .4s;
+}
+.button_add:hover{
+    border-radius: 10px;
+    color: #0e0327;
+}
+.section_custumer h2{
+    text-align: center;
+}
+.section_custumer ul{
+    margin: auto;
+}
+.section_custumer ul li{
+    list-style: none;
+
+}
+.button_calc{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border:1px solid transparent;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(44, 44, 44);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: .4s;
+}
+.section_result{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.button_remove {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border:1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: .4s;
+    background-color: #550dfdc2;
+    color: gray;
+}
+.button_remove:hover{
+    color: white;
+    border-radius: 10px;
+    background-color: red;
+}
+.result{
+    margin: auto;
+}
+.btn_back{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+@media screen and (max-width:720px) {
+    .container_divider{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px; 
+        margin-top: 30%;
+    }
+    .section_product{
+        width: 250px;
+        margin: auto;
+    }
+    .section_custumer{
+        width: 250px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .result{
+        margin: auto;
+    }
+    .btn_back{
+        
+        display: none;
+        
+    }
+}

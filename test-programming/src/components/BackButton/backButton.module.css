@@ -1,0 +1,16 @@
+.container_button{
+    background-color: #560DFD;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    transition: .4s;
+}
+.container_button:hover{
+    background-color: blueviolet;
+}
